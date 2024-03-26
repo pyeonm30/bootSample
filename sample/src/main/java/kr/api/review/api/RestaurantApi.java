@@ -1,9 +1,10 @@
 package kr.api.review.api;
 
-import com.jyujyu.review.api.request.CreateAndEditRestaurantRequest;
-import com.jyujyu.review.api.response.RestaurantDetailView;
-import com.jyujyu.review.api.response.RestaurantView;
-import com.jyujyu.review.service.RestaurantService;
+
+import kr.api.review.api.request.CreateAndEditRestaurantRequest;
+import kr.api.review.api.response.RestaurantDetailView;
+import kr.api.review.api.response.RestaurantView;
+import kr.api.review.service.RestaurantService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

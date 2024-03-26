@@ -1,12 +1,12 @@
 package kr.api.review.service;
 
-import com.jyujyu.review.api.request.CreateAndEditRestaurantRequest;
-import com.jyujyu.review.api.response.RestaurantDetailView;
-import com.jyujyu.review.api.response.RestaurantView;
-import com.jyujyu.review.model.MenuEntity;
-import com.jyujyu.review.model.RestaurantEntity;
-import com.jyujyu.review.repository.MenuRepository;
-import com.jyujyu.review.repository.RestaurantRepository;
+import kr.api.review.api.request.CreateAndEditRestaurantRequest;
+import kr.api.review.api.response.RestaurantDetailView;
+import kr.api.review.api.response.RestaurantView;
+import kr.api.review.model.MenuEntity;
+import kr.api.review.model.RestaurantEntity;
+import kr.api.review.repository.MenuRepository;
+import kr.api.review.repository.RestaurantRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

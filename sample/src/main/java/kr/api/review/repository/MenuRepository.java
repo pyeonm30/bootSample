@@ -1,6 +1,6 @@
 package kr.api.review.repository;
 
-import com.jyujyu.review.model.MenuEntity;
+import kr.api.review.model.MenuEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package kr.api.review.service.dto;
 
-import com.jyujyu.review.model.ReviewEntity;
+import kr.api.review.model.ReviewEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

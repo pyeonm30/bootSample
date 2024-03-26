@@ -1,9 +1,9 @@
 package kr.api.review.service;
 
-import com.jyujyu.review.model.ReviewEntity;
-import com.jyujyu.review.repository.RestaurantRepository;
-import com.jyujyu.review.repository.ReviewRepository;
-import com.jyujyu.review.service.dto.ReviewDto;
+import kr.api.review.model.ReviewEntity;
+import kr.api.review.repository.RestaurantRepository;
+import kr.api.review.repository.ReviewRepository;
+import kr.api.review.service.dto.ReviewDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;

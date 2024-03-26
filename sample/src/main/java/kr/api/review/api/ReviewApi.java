@@ -1,8 +1,9 @@
 package kr.api.review.api;
 
-import com.jyujyu.review.api.request.CreateReviewRequest;
-import com.jyujyu.review.service.ReviewService;
-import com.jyujyu.review.service.dto.ReviewDto;
+
+import kr.api.review.api.request.CreateReviewRequest;
+import kr.api.review.service.ReviewService;
+import kr.api.review.service.dto.ReviewDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.*;
